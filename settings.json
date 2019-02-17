@@ -45,6 +45,18 @@
     "workbench.editor.highlightModifiedTabs": true,
     "window.menuBarVisibility": "toggle",
     "window.restoreFullscreen": true,
-    "workbench.colorTheme": "Dark+",
+    "workbench.colorTheme": "Quiet Light",
     "git.autofetch": true,
+    "C_Cpp.default.cppStandard": "c++14",
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.navigation.length": 80,
+    "python.analysis.diagnosticPublishDelay": 100,
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.colors": [
+        "Black",
+        "#f442aa",
+        "#f47741",
+        "#1a8443"
+    ],
 }
