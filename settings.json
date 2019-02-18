@@ -1,10 +1,5 @@
 {
     "window.zoomLevel": 1,
-    "nightswitch.sunrise": "6AM",
-    "nightswitch.sunset": "9PM",
-    "nightswitch.themeDay": "Quiet Light",
-    "nightswitch.themeNight": "Dark+",
-    "files.autoSave": "onWindowChange",
     "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
         "**/*.circuit": true,
@@ -37,6 +32,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
     "workbench.startupEditor": "none",
     "workbench.useExperimentalGridLayout": true,
     "workbench.activityBar.visible": false,
@@ -53,12 +49,13 @@
     "bracket-pair-colorizer-2.highlightActiveScope": true,
     "bracket-pair-colorizer-2.showBracketsInGutter": true,
     "bracket-pair-colorizer-2.colors": [
-        "#",
-        "#f442aa",
+        "#ffffff",
+        "#a1f442",
+        "#41f4f4",
         "#f47741",
-        "#1a8443"
+        "#f442aa",
     ],
     "color-highlight.matchWords": true,
     "color-highlight.markerType": "dot-before",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Cobalt2",
 }
