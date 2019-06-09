@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
         "**/*.circuit": true,
@@ -36,7 +36,6 @@
     "workbench.startupEditor": "none",
     "workbench.useExperimentalGridLayout": true,
     "workbench.activityBar.visible": false,
-    "workbench.tree.horizontalScrolling": true,
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "window.menuBarVisibility": "toggle",
@@ -59,4 +58,17 @@
     "color-highlight.markerType": "dot-before",
     "workbench.colorTheme": "Cobalt2",
     "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tokenColorCustomizations": {
+        "[Cobalt2]": {
+            "comments": "#d4922f"
+        }
+    },
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "500",
+    "editor.cursorWidth": 5,
 }

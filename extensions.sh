@@ -1,6 +1,7 @@
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension eamodio.gitlens
+code --install-extension Gimly81.fortran
 code --install-extension GrapeCity.gc-excelviewer
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mitaki28.vscode-clang
