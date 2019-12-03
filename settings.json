@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 3,
     "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
         "**/*.circuit": true,
@@ -71,4 +71,5 @@
     "editor.letterSpacing": 0.5,
     "editor.fontWeight": "500",
     "editor.cursorWidth": 5,
+    "zenMode.hideLineNumbers": false,
 }
