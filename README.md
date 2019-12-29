@@ -1,8 +1,11 @@
 # code-settings
+
 my vscode settings
 
 ## Installation
 
-* copy `settings.json` to `~/.config/Code/User`
+run ``bash install.sh``
 
-* install all extensions `bash extensions.sh`
+## Updating config
+
+run ``bash update_profile.sh``
