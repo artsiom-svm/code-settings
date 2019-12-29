@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 1,
     "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
         "**/*.circuit": true,
@@ -34,7 +34,6 @@
     "files.trimTrailingWhitespace": true,
     "files.autoSave": "onFocusChange",
     "workbench.startupEditor": "none",
-    "workbench.useExperimentalGridLayout": true,
     "workbench.activityBar.visible": false,
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
@@ -43,7 +42,6 @@
     "git.autofetch": true,
     "C_Cpp.default.cppStandard": "c++14",
     "C_Cpp.default.cStandard": "c99",
-    "C_Cpp.navigation.length": 80,
     "python.analysis.diagnosticPublishDelay": 100,
     "bracket-pair-colorizer-2.highlightActiveScope": true,
     "bracket-pair-colorizer-2.showBracketsInGutter": true,
@@ -72,4 +70,8 @@
     "editor.fontWeight": "500",
     "editor.cursorWidth": 5,
     "zenMode.hideLineNumbers": false,
+    "files.associations": {
+        "**/.i3/config": "i3",
+        "**/i3/config": "i3",
+    },
 }

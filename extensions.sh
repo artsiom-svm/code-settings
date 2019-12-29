@@ -1,5 +1,6 @@
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension dcasella.i3
 code --install-extension eamodio.gitlens
 code --install-extension freebroccolo.reasonml
 code --install-extension Gimly81.fortran
