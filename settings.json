@@ -57,7 +57,6 @@
     "workbench.colorTheme": "Cobalt2",
     "python.jediEnabled": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.tokenColorCustomizations": {
         "[Cobalt2]": {
             "comments": "#d4922f"
@@ -74,4 +73,7 @@
         "**/.i3/config": "i3",
         "**/i3/config": "i3",
     },
+    "editor.detectIndentation": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
 }
