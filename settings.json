@@ -1,10 +1,29 @@
 {
-    "window.zoomLevel": 1,
+    "extensions.autoUpdate": false,
     "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
+        ".viceroy": true,
+        "apollo-overrides": true,
+        "release-info": true,
+        "src/*/build": false,
+        "build": true,
+        "env": true,
+        "packageInfo*": true,
+        ".bemol": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
         "**/*.circuit": true,
         "**/*.data": true,
-        "**/*.ipynb": true
+        "**/*.ipynb": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/*pb.go": true,
+        "**/*pb.gw.go": true
     },
     "editor.autoClosingBrackets": "beforeWhitespace",
     "editor.autoClosingQuotes": "beforeWhitespace",
@@ -21,7 +40,6 @@
     "editor.cursorStyle": "underline-thin",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.minimap.maxColumn": 80,
     "editor.minimap.showSlider": "always",
@@ -55,7 +73,6 @@
     "color-highlight.matchWords": true,
     "color-highlight.markerType": "dot-before",
     "workbench.colorTheme": "Cobalt2",
-    "python.jediEnabled": false,
     "editor.suggestSelection": "first",
     "editor.tokenColorCustomizations": {
         "[Cobalt2]": {
@@ -73,8 +90,71 @@
         "**/.i3/config": "i3",
         "**/i3/config": "i3",
     },
-    "editor.detectIndentation": true,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "go.autocompleteUnimportedPackages": true,
+    "go.useLanguageServer": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "python.languageServer": "Microsoft",
+    "python.pythonPath": "python3",
+    "python.autoComplete.extraPaths": [
+        "/home/artsiom/cs/stonks_tracker_telegram_bot/stonks_tracker_lambda",
+        "/home/ANT.AMAZON.COM/artsiom/work/DRDCMS/src/RingDRDataComplianceLambda/src"
+    ],
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "viceroy.config.lastVersion": "0.42.200985",
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.hg/store/**": true,
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true,
+        "**/target": true
+    },
+    "search.exclude": {
+        "env": true,
+        "src/*/build": true,
+        "build": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "viceroy.config.internal.lastUpdateTime": "2021-08-20T19:21:03.552Z",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/ANT.AMAZON.COM/artsiom/.vscode-oss/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "[java]": {
+        "editor.formatOnSave": true
+    },
+    "viceroy.config.promptForWorkspaceMode": "never",
+    "aws.telemetry": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "viceroy.doc.welcome.showAtStartup": false,
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "vim.autoindent": true,
+    "vim.useCtrlKeys": false,
+    "vim.highlightedyank.enable": true,
+    "viceroy.config.internal.autoUpdate": "daily",
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "119"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "viceroy.marketplace.extensionUpdateChannels": {
+        "marklel.vscode-brazil": "stable"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": -1
 }
