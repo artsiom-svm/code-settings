@@ -36,7 +36,7 @@
     "editor.stablePeek": true,
     "editor.tabCompletion": "on",
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "underline-thin",
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
@@ -52,7 +52,7 @@
     "files.trimTrailingWhitespace": true,
     "files.autoSave": "onFocusChange",
     "workbench.startupEditor": "none",
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "breadcrumbs.enabled": true,
     "workbench.editor.highlightModifiedTabs": true,
     "window.menuBarVisibility": "toggle",
@@ -60,16 +60,6 @@
     "git.autofetch": true,
     "C_Cpp.default.cppStandard": "c++14",
     "C_Cpp.default.cStandard": "c99",
-    "python.analysis.diagnosticPublishDelay": 100,
-    "bracket-pair-colorizer-2.highlightActiveScope": true,
-    "bracket-pair-colorizer-2.showBracketsInGutter": true,
-    "bracket-pair-colorizer-2.colors": [
-        "#ffffff",
-        "#a1f442",
-        "#41f4f4",
-        "#f47741",
-        "#f442aa",
-    ],
     "color-highlight.matchWords": true,
     "color-highlight.markerType": "dot-before",
     "workbench.colorTheme": "Cobalt2",
@@ -80,7 +70,7 @@
         }
     },
     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 18,
+    "editor.fontSize": 22,
     "editor.lineHeight": 25,
     "editor.letterSpacing": 0.5,
     "editor.fontWeight": "500",
@@ -93,20 +83,9 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "go.autocompleteUnimportedPackages": true,
-    "go.useLanguageServer": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "python.languageServer": "Microsoft",
-    "python.pythonPath": "python3",
-    "python.autoComplete.extraPaths": [
-        "/home/artsiom/cs/stonks_tracker_telegram_bot/stonks_tracker_lambda",
-        "/home/ANT.AMAZON.COM/artsiom/work/DRDCMS/src/RingDRDataComplianceLambda/src"
-    ],
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "viceroy.config.lastVersion": "0.42.200985",
+    "python.languageServer": "Default",
     "files.watcherExclude": {
         "**/build/**": true,
         "**/.git/objects/**": true,
@@ -126,20 +105,11 @@
         "**/bower_components": true,
         "**/*.code-search": true
     },
-    "viceroy.config.internal.lastUpdateTime": "2021-08-20T19:21:03.552Z",
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/ANT.AMAZON.COM/artsiom/.vscode-oss/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
     "[java]": {
         "editor.formatOnSave": true
     },
-    "viceroy.config.promptForWorkspaceMode": "never",
-    "aws.telemetry": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "viceroy.doc.welcome.showAtStartup": false,
-    "java.refactor.renameFromFileExplorer": "autoApply",
-    "vim.autoindent": true,
-    "vim.useCtrlKeys": false,
-    "vim.highlightedyank.enable": true,
-    "viceroy.config.internal.autoUpdate": "daily",
     "[python]": {
         "gitlens.codeLens.symbolScopes": [
             "!Module"
@@ -152,9 +122,6 @@
         "119"
     ],
     "diffEditor.ignoreTrimWhitespace": false,
-    "viceroy.marketplace.extensionUpdateChannels": {
-        "marklel.vscode-brazil": "stable"
-    },
-    "go.toolsManagement.autoUpdate": true,
-    "window.zoomLevel": -1
+    "window.zoomLevel": 0,
+    "scm.inputFontSize": 15,
 }
